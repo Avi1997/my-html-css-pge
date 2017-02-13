@@ -1,0 +1,149 @@
+body
+{
+background-color:white;
+background-attachment:fixed;
+background-repeat:no-repeat;
+margin:0px;
+padding:0px;
+
+
+}
+header{
+font-style:algerian;
+text-align:left;
+color:white;
+font-size:20px;
+border:15px groove brown;
+background-color:brown;
+}
+footer{
+font-style:algerian;
+text-align:left;
+color:white;
+font-size:20px;
+border:15px groove brown;
+background-color:brown;
+}
+
+
+form
+{
+ font-size:14px;
+ color:black;
+ border:10px groove brown;
+ width:500px;
+height:450px;
+ text-align:right;
+ float:right;
+padding:30px;
+padding-top:50px;
+position:absolute;
+top:210px;
+left:770px;
+background-color:white;
+}
+
+
+
+
+#out{
+ position:relative;
+ width :500px;
+ top : 50px;
+ left:100px;
+ overflow:hidden;
+ border:1px groove orange;
+
+}
+
+#in
+{
+ position:relative;
+ width :2000px;
+ left:100px;
+ top : 30px;
+animation-name:me;
+animation-duration:20s;
+animation-iteration-count:infinite;
+}
+
+#in img
+{
+ float:right;
+}
+
+
+@keyframes me
+{
+  0%
+{
+   left: 0px;
+}
+ 20%
+ {
+ left : 0px;
+ }
+ 25%
+ {
+  left:-500px;
+ }
+ 40%
+{
+ left:-500px;
+}
+ 50%
+{
+ left:-1000px;
+}
+70%
+{
+  left:-1000px;
+}
+75%
+{
+  left:-1500px;
+}
+95%
+{
+ left:-1500px;
+}
+100%
+{
+ left:-2000px;
+}
+}
+
+
+
+
+ul
+{
+ 
+ margin:0;
+ padding:0;
+ list-style-type:none;
+}
+ ul li a
+{
+ Background:brown;
+ color:white;
+ padding:15px;
+ border: 1px solid black;
+ font-size:15px;
+ width :192px;
+ text-align:center;
+text-decoration:none;
+display:block;
+}
+
+ul li a:hover
+{
+ background:orange;
+}
+ul li
+{
+ float:left;
+}
+
+
+
